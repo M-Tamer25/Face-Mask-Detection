@@ -1,0 +1,19 @@
+# Ignore the virtual environment
+.venv/
+env/
+
+# Ignore python compiled files
+__pycache__/
+*.pyc
+
+# Ignore the heavy dataset (Users will use your script to download it)
+dataset/
+*.zip
+
+# Ignore specific large folders if they are duplicates
+Face-Mask-Detection-master/
+
+# (Optional) If you want to force users to train their own model, ignore these too. 
+# But since your models are only ~11MB, it is SAFE to upload them so users can test immediately.
+# *.h5
+# *.keras
